@@ -1,2 +1,2 @@
 # Namaste React
- Namaste React course by Akshay Saini
+ Assignments for Namaste React course by Akshay Saini
