@@ -1,6 +1,6 @@
-#Chapter 01 - Inception
+# Chapter 01 - Inception
 
-##Theory -
+## Theory -
 - What is Emmet?
 - Difference between a Library and Framework?
 - What is CDN? Why do we use it?
@@ -10,7 +10,7 @@
 - What is difference between react.development.js and react.production.js files via CDN?
 - What is async and defer? - see my Youtube video ;)
 
-##Coding -
+## Coding -
 - Set up all the tools in your laptop
     - VS Code
     - Chrome
@@ -27,6 +27,6 @@
 - Push code to Github (Theory as well as code)
 - Learn about Arrow Functions before the next class
 
-##References:
+## References:
 - https://beta.reactjs.org/apis/react/createElement
 - https://www.youtube.com/watch?v=IrHmpdORLu8
