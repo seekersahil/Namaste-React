@@ -9,8 +9,18 @@
 </head>
 <body>
     <div id="root">Not Rendered</div>
+    <div id="root1"></div>
+    <div id="root2">
+        <h1>Rendered with HTML</h1>
+    </div>
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
     <script src="app.js"></script>
+    <script>
+        var rootdom = document.getElementById("root1");
+        var h1dom = document.createElement("h1");
+        h1dom.innerHTML = "Rendered with DOM";
+        rootdom.appendChild(h1dom);
+    </script>
 </body>
 </html>
