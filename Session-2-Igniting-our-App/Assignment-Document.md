@@ -1,32 +1,35 @@
-Revise Parcel Features:
-
-- HMR (Hot Module Replacement)
-- FWA (File Watcher Algorithm)
-- Bundling
-- Minify
-- Cleaning our COde
-- Dev and Production Build
-- Super fast Build Algorithm
-- Image Optimization
-- Caching while development
-- Compression
-- Compatible with older version of browser
-- HTTPS on dev
-- Handles port number
-- Consistent Hashing Algorithms (To do all bundling)
-- Zero Config (Other bundlers have much configuration)
-- Browser List (How to make our app work on old browsers(IE))
-
-
-Some Important Parcel Interview Question 
-- Should we put parcel-cache in gitignore?
-- Why is React Fast?
+## Theory Assignment:
+- What is `NPM`?
+- What is `Parcel/Webpack`? Why do we need it?
+- What is `.parcel-cache`
+- What is `npx` ?
+- What is difference between `dependencies` vs `devDependencies`?
 - What are Transitive Dependencies?
-- How to make our app work on old browsers(IE)? (Using browserslist)
-
-Other Tasks:
-1. Read about different bundlers: vite, webpack, parcel
-2. Read about:  ^ - caret and ~ - tilda
-3. Read PARCEL Docs from link:  https://parceljs.org/docs/
-4. Read about Script types in html (MDN Docs): modules etc.
-5. Do what Akshay did in the class & Ignite your App on Local. (coding part)
+- What is Tree Shaking?
+- What is Hot Module Replacement?
+- List down your favourite 5 superpowers of Parcel and describe any 3 of them in your own words.
+- What is `.gitignore`? What should we add and not add into it?
+- What is the difference between `package.json` and `package-lock.json`
+- Why should I not modify `package-lock.json`?
+- What is `node_modules` ? Is it a good idea to push that on git?
+- What is the `dist` folder?
+- What is `browserlists`? How to make our app work on old browsers(IE)?
+- Read about dif bundlers: vite, webpack, parcel
+- Read about: ^ - caret and ~ - tilda
+- Read about Script types in html (MDN Docs)
+## Project Assignment:
+- In your existing project
+    - intialize `npm` into your repo
+    - install `react` and `react-dom`
+    - remove CDN links of react
+    - install parcel
+    - ignite your app with parcel
+    - add scripts for “start” and “build” with parcel commands
+    - add `.gitignore` file
+    - add `browserlists`
+    - build a production version of your code using `parcel build`
+## References
+- Creating your own create-react-app
+- Parcel Documentation
+- Parcel on Production
+- BrowsersList: https://browserslist.dev/

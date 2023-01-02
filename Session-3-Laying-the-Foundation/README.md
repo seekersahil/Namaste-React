@@ -1,0 +1,1 @@
+Today we started with the JSX and React elements and components
