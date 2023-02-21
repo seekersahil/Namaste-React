@@ -30,3 +30,4 @@ let div = React.createElement(
   [h1, h2]
 );
 root.render(div);
+let abc = () => {};
